@@ -97,11 +97,6 @@ function handleDelete(name,cartdiv){
    localStorage.setItem("addtocartData",JSON.stringify(filteredArr))
    displayData(filteredArr)
    alert("Item deleted from Cart")
-//    if(filteredArr.length==0){
-//     var nocart = document.createElement("h1")
-//     nocart.innerText="No Cart Products"
-//     nocart.style.color="deeppink"
-//     document.querySelector("cartpagemaindiv1").append(nocart)
-// }
+
 }
 
